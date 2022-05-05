@@ -1,0 +1,9 @@
+<h2> Edit task <%= @task.id %></h2>
+
+<%= form_with model: @task do|form| %>
+    <p><%= form.label :body, 'Task text' %></p>
+    <p><%= form.text_area :body, rows: 5 %></p>
+    <p><%= form.label :user_id %></p>
+    <p><%= form.text_field :user_id %></p>
+    <p><%= form.submit 'Save' %></p>
+    <% end %>
