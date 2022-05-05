@@ -21,8 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* verify_authenticity_token  disabled 030522 #'skip_before_action :verify_authenticity_token'
-* verify_authenticity_token  enabled 050522
-# To-do-list
-# To-do-list
-# To-do-list
+
